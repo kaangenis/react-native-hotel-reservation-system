@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface rntemplatestableTests : XCTestCase
+@interface HotelReservationTests : XCTestCase
 
 @end
 
-@implementation rntemplatestableTests
+@implementation HotelReservationTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {
