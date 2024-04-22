@@ -1,4 +1,4 @@
-package com.rntemplatestable
+package com.kg.hotelreservation
 
 import android.app.Application
 import com.facebook.react.PackageList
