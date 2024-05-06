@@ -14,10 +14,17 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1B5FC5A6FAD0437EA8249278 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3223E224B366425E9B301731 /* OpenSans-Light.ttf */; };
+		4F890389783842F0BFE66B7A /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A877743B6904316BDD7E548 /* Roboto-Light.ttf */; };
 		522F22D934C148A593FBBA91 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61638CDE7948498AB76EDE85 /* OpenSans-Italic.ttf */; };
+		64D8FF33E5FF469BB1A8D777 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD58618CF70D4E10AE0F9E6E /* Roboto-Thin.ttf */; };
+		6A283133C0D748CDB8B5C958 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDF3AD58648F4419A036047A /* Roboto-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-HotelReservation-HotelReservationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-HotelReservation-HotelReservationTests.a */; };
 		79C9EC091E3B4CD1B3063F68 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF6500D0D7BF4725A5C0D170 /* OpenSans-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		915FBDE376F2436AAB82FACF /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D09D7D99E5DA4730A0E61AF3 /* Roboto-Regular.ttf */; };
+		99489C25CB2D472C98104564 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4450E4BA34AE98E515104 /* Roboto-Black.ttf */; };
+		C619B9DC31544578B98AB3FB /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D10637961050438CA8EA8D23 /* Roboto-Italic.ttf */; };
+		DAF7DB53A95E4ECDA4020E9B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CD6BE62C3D4ACBA4BBB1C7 /* Roboto-Medium.ttf */; };
 		E21F40D7E87D4A8C9C73D8D9 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */; };
 		E2993158F7AB41EA91078C8A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798C97A88D504304A30581EF /* OpenSans-Regular.ttf */; };
 		F6FF6FF412674DA4AA950930 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85B916015AEB4EE28C9225B9 /* OpenSans-ExtraBold.ttf */; };
@@ -29,35 +36,42 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = "HotelReservation";
+			remoteInfo = HotelReservation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* HotelReservationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HotelReservationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* HotelReservationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelReservationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* HotelReservationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HotelReservationTests.m"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* HotelReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HotelReservation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "HotelReservation/AppDelegate.h"; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "HotelReservation/AppDelegate.mm"; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "HotelReservation/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "HotelReservation/Info.plist"; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "HotelReservation/main.m"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* HotelReservationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelReservationTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* HotelReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HotelReservation/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = HotelReservation/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HotelReservation/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HotelReservation/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HotelReservation/main.m; sourceTree = "<group>"; };
 		193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-HotelReservation-HotelReservationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HotelReservation-HotelReservationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7672FDE4324E2A98BE68CA /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		2A877743B6904316BDD7E548 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		3223E224B366425E9B301731 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-HotelReservation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelReservation.debug.xcconfig"; path = "Target Support Files/Pods-HotelReservation/Pods-HotelReservation.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-HotelReservation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelReservation.release.xcconfig"; path = "Target Support Files/Pods-HotelReservation/Pods-HotelReservation.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-HotelReservation-HotelReservationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelReservation-HotelReservationTests.debug.xcconfig"; path = "Target Support Files/Pods-HotelReservation-HotelReservationTests/Pods-HotelReservation-HotelReservationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD4450E4BA34AE98E515104 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-HotelReservation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HotelReservation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61638CDE7948498AB76EDE85 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		798C97A88D504304A30581EF /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "HotelReservation/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HotelReservation/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85B916015AEB4EE28C9225B9 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-HotelReservation-HotelReservationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelReservation-HotelReservationTests.release.xcconfig"; path = "Target Support Files/Pods-HotelReservation-HotelReservationTests/Pods-HotelReservation-HotelReservationTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD58618CF70D4E10AE0F9E6E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		D09D7D99E5DA4730A0E61AF3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D10637961050438CA8EA8D23 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		D7CD6BE62C3D4ACBA4BBB1C7 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EF6500D0D7BF4725A5C0D170 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		FDF3AD58648F4419A036047A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +100,7 @@
 				00E356F21AD99517003FC87E /* HotelReservationTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = "HotelReservationTests";
+			path = HotelReservationTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -107,7 +121,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = "HotelReservation";
+			name = HotelReservation;
 			sourceTree = "<group>";
 		};
 		2A882AECFFB4436FBEC49616 /* Resources */ = {
@@ -120,6 +134,13 @@
 				193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */,
 				798C97A88D504304A30581EF /* OpenSans-Regular.ttf */,
 				1A7672FDE4324E2A98BE68CA /* OpenSans-SemiBold.ttf */,
+				5BD4450E4BA34AE98E515104 /* Roboto-Black.ttf */,
+				FDF3AD58648F4419A036047A /* Roboto-Bold.ttf */,
+				D10637961050438CA8EA8D23 /* Roboto-Italic.ttf */,
+				2A877743B6904316BDD7E548 /* Roboto-Light.ttf */,
+				D7CD6BE62C3D4ACBA4BBB1C7 /* Roboto-Medium.ttf */,
+				D09D7D99E5DA4730A0E61AF3 /* Roboto-Regular.ttf */,
+				CD58618CF70D4E10AE0F9E6E /* Roboto-Thin.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -218,8 +239,8 @@
 			);
 			dependencies = (
 			);
-			name = "HotelReservation";
-			productName = "HotelReservation";
+			name = HotelReservation;
+			productName = HotelReservation;
 			productReference = 13B07F961A680F5B00A75B9A /* HotelReservation.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -280,6 +301,13 @@
 				E21F40D7E87D4A8C9C73D8D9 /* OpenSans-Medium.ttf in Resources */,
 				E2993158F7AB41EA91078C8A /* OpenSans-Regular.ttf in Resources */,
 				0B608512AE27480EA09F5CF9 /* OpenSans-SemiBold.ttf in Resources */,
+				99489C25CB2D472C98104564 /* Roboto-Black.ttf in Resources */,
+				6A283133C0D748CDB8B5C958 /* Roboto-Bold.ttf in Resources */,
+				C619B9DC31544578B98AB3FB /* Roboto-Italic.ttf in Resources */,
+				4F890389783842F0BFE66B7A /* Roboto-Light.ttf in Resources */,
+				DAF7DB53A95E4ECDA4020E9B /* Roboto-Medium.ttf in Resources */,
+				915FBDE376F2436AAB82FACF /* Roboto-Regular.ttf in Resources */,
+				64D8FF33E5FF469BB1A8D777 /* Roboto-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +482,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HotelReservationTests/Info.plist";
+				INFOPLIST_FILE = HotelReservationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,7 +494,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.hotelreservation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.hotelreservation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotelReservation.app/HotelReservation";
 			};
@@ -478,7 +506,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "HotelReservationTests/Info.plist";
+				INFOPLIST_FILE = HotelReservationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +518,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.hotelreservation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.hotelreservation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotelReservation.app/HotelReservation";
 			};
@@ -504,8 +532,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "HotelReservation/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "Hotel Reservation";
+				INFOPLIST_FILE = HotelReservation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hotel Reservation";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,8 +544,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.hotelreservation";
-				PRODUCT_NAME = "HotelReservation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.hotelreservation;
+				PRODUCT_NAME = HotelReservation;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -531,8 +559,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "HotelReservation/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "Hotel Reservation";
+				INFOPLIST_FILE = HotelReservation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hotel Reservation";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,8 +571,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.hotelreservation";
-				PRODUCT_NAME = "HotelReservation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.hotelreservation;
+				PRODUCT_NAME = HotelReservation;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
